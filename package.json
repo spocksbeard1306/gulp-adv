@@ -1,0 +1,24 @@
+{
+  "name": "gulp-adv",
+  "version": "1.0.0",
+  "description": "Plataforma GULP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elvis",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.0.1",
+    "fs": "0.0.2",
+    "gulp-concat": "^2.6.0",
+    "react": "^0.13.3",
+    "underscore": "^1.8.3",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "compression": "^1.5.2",
+    "express": "^4.13.3"
+  }
+}
