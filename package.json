@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "compression": "^1.5.2",
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "gulp": "^3.9.0"
   }
 }
