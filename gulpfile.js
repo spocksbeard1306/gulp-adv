@@ -21,5 +21,9 @@ gulp.task('copy-html',function(){
     return gulp.src('./src/html/*.html')
         .pipe(gulp.dest('./build/html/'))
 });
+gulp.task('copy-img',function(){
+    return gulp.src('./src/img/*.*')
+        .pipe(gulp.dest('./build/img/'));
+});
 
-gulp.task('build',['browserify','copy-css','copy-html']);
+gulp.task('build',['browserify','copy-css','copy-html','copy-img']);

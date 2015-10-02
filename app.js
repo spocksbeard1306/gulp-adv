@@ -10,6 +10,7 @@ app.use(compress());
 app.use('/', express.static(__dirname + '/build/html'));
 app.use('/js', express.static(__dirname + '/build/js'));
 app.use('/css', express.static(__dirname + '/build/css'));
+app.use('/img', express.static(__dirname + '/build/img'));
 
 //Run server
 app.listen(port);

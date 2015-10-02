@@ -1,0 +1,21 @@
+#page-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#listaugeles > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+}
+#listaugeles select {
+    width: 400px;
+    height: 600px;
+}
+#listaugeles .img-reload:hover{
+    background-color: red;
+    cursor: pointer;
+}
