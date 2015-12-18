@@ -37,7 +37,7 @@ var UgelStoreActions = {
         this.dispatch(constants.LOAD_UGELES);
         //A la carga
         var request = new XMLHttpRequest();
-        request.open('POST', 'http://localhost:14268/regprogramas/resources/usuario/listusuarios', true);
+        request.open('POST', 'http://192.168.210.10:8080/regprogramas/resources/usuario/listusuarios', true);
 
         request.onload = function(){
             if(request.status >= 200 && request.status < 400){

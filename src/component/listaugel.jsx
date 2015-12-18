@@ -38,8 +38,8 @@ var ListaUgel = React.createClass({
                     </div>
                 );
             }else if(this.state.code >= 200 && this.state.code < 400){
-                var arr = _.map(this.state.ugeles, function(v, k){
-                    return <option>{v.usuario+'-'+v.nombre}</option>;
+                var arr = _.map(this.state.ugeles, function(v){
+                    return <option key={v.usuario} value={v.usuario}>{v.usuario+'-'+v.nombre}</option>;
                 });
                 return (
                     <div id="listaugeles" className="component">

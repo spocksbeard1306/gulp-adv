@@ -1,3 +1,4 @@
+window.ReactDOM = require('react-dom');
 window.React = require('react');
 window._ = require('underscore');
 window.Fluxxor = require('fluxxor');
@@ -7,4 +8,4 @@ var UgelStoreFlux = require('../component/ugelstore.js');
 var ListaUgel = require('../component/listaugel.jsx');
 
 
-React.render(<ListaUgel flux = {UgelStoreFlux} />, document.getElementById('page-body'));
+ReactDOM.render(<ListaUgel flux = {UgelStoreFlux} />, document.getElementById('page-body'));
