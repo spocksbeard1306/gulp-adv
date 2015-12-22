@@ -1,0 +1,12 @@
+.has-error{
+    color: red;
+    border-color: red;
+}
+.has-warning{
+    color: yellow;
+    border-color: yellow;
+}
+.has-success{
+    color: green;
+    border-color: green;
+}
